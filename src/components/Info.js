@@ -16,7 +16,7 @@ let Info = (props)=>{
     return (
        <div>
         <div id='tour-item-para-rec6d6T3q5EBIdCfD'>{string}</div>
-     <button onClick={changedata} id='see-more-rec6d6T3q5EBIdCfD'>{string.length==200 ? 'See more' : 'See less'}</button>
+     <button onClick={changedata} id='see-more-rec6d6T3q5EBIdCfD'>{string.length==200 ? 'See more' : 'Show less'}</button>
        </div>
     )
 }
