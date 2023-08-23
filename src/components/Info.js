@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 
 let Info = (props)=>{
-    let [string,Setstring]=useState(props.a)
+    let [string,Setstring]=useState(props.a.substring(0,200))
     console.log(string.length)
     function changedata(){
       if(string.length==200){
