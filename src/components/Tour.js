@@ -22,7 +22,7 @@ let Tour = ({arr,set})=>{
                     <button></button>
                     </div>
                     <img src={element.image} alt='temp' ></img>
-                    <button className='delete-btn' onClick={()=>{changedata(element.id)}}>Delete Tour</button>
+                    <button className='delete-btn-rec6d6T3q5EBIdCfD' onClick={()=>{changedata(element.id)}}>Delete Tour</button>
                 </div>
             )
         })
