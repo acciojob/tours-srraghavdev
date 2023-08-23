@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Info from './Info'
 
 let Tour = ({arr,set})=>{
     let[info,Setinfo]=useState()
@@ -17,7 +18,7 @@ let Tour = ({arr,set})=>{
             return (
                 <div className='single-tour'>
                     <div className='title'>{element.name}</div>
-                    <div className='tour-info'>{element.info}</div>
+                    {<Info a={element.info}/>}
                     <div className='tour-price'>{element.price}
                     <button></button>
                     </div>
